@@ -10,6 +10,8 @@ public class LessonsSpringCore2Application {
     public static void main(String[] args) {
         //Create container and output object
         //Test
+        //test3
+
         var context = new AnnotationConfigApplicationContext(SpringConfig.class);
         Auto auto1 = context.getBean("auto1", Auto.class);
         Auto auto2 = context.getBean("auto2", Auto.class);
